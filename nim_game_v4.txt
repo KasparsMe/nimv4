@@ -24,7 +24,6 @@ class NimGame(tk.Tk):
         self.piles = []
   # Izveido 5 kaudzes ar objektiem, izmantojot random pieskirsanas funkciju
         for i in range(5):
-        for i in range(5):
             objects = random.randint(1, 3)
             pile = Pile(self, i + 1, objects)
             pile.label.pack(pady=10)
